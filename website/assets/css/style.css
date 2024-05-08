@@ -2,10 +2,14 @@ body{
     background: #BDBDBD;
 }
 .container{
-    font-family: "Sedgwick Ave", cursive;
-   background-image: url(https://www.viajarlasvegas.com/img/visiar-new-york-las-vegas.jpg);
-   height: 80vh;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+   background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/82/New_York%2C_New_York_Casino_at_night.jpg);
+   height: 90vh;
+   background-position:center ;
+   background-repeat:repeat;
+   background-size:cover;
+   width: 100%;
+}
+.foto1{
+    padding-top: 60px;
+    display: block;
 }
