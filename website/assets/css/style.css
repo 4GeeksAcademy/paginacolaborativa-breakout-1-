@@ -1,3 +1,11 @@
 body{
     background: #BDBDBD;
 }
+.container{
+    font-family: "Sedgwick Ave", cursive;
+   background-image: url(https://www.viajarlasvegas.com/img/visiar-new-york-las-vegas.jpg);
+   height: 80vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
