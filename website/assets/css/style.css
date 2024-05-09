@@ -12,4 +12,16 @@ body{
 .foto1{
     padding-top: 60px;
     display: block;
+    animation-direction:normal ;
+    animation-name: letra1;
 }
+@keyframes letra1 {
+    from {
+      margin-top: 0%;
+      width: 300%;
+    }
+  
+    to {
+      margin-botom: 100%;
+      width: 100%;
+    }
