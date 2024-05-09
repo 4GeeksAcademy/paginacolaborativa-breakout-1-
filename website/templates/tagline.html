@@ -1,3 +1,24 @@
 <!-- your html code here -->
 <!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<div class="caja container-fluid text-center p-0 m-10">
+             <a class="foto1" href="https://fontmeme.com/es/fuentes-de-grafiti/"><img src="https://fontmeme.com/permalink/240508/4af048ed819123d06362862146a7f7dc.png" alt="fuentes-de-grafiti" border="0"></a>
+             <a class="foto2" href="https://fontmeme.com/es/fuentes-de-grafiti/"><img src="https://fontmeme.com/permalink/240508/c8bff7390694b0d3b2e35f29a7cd4e4f.png" alt="fuentes-de-grafiti" border="0"></a>
+</div>
+<script>
+    window.addEventListener('scroll', function() {
+    var caja = document.querySelector('.caja');
+    var fotos = document.querySelectorAll('.foto1');
+
+    fotos.forEach(function(foto) {
+        var fotoBottom = foto.getBoundingClientRect().bottom;
+        var cajaBottom = caja.getBoundingClientRect().bottom;
+
+        if (fotoBottom >= cajaBottom) {
+            foto.style.visibility = 'hidden';
+        } else {
+            foto.style.visibility = 'visible';
+        }
+    });
+});
+
+</script>
