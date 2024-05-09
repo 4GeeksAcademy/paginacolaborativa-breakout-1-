@@ -1,27 +1,27 @@
-body{
+body {
     background: #BDBDBD;
 }
-.container{
-   background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/82/New_York%2C_New_York_Casino_at_night.jpg);
-   height: 90vh;
-   background-position:center ;
-   background-repeat:repeat;
-   background-size:cover;
-   width: 100%;
+
+.caja {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/82/New_York%2C_New_York_Casino_at_night.jpg);
+    height: 90vh;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
 }
-.foto1{
+
+.foto1 {
     padding-top: 60px;
     display: block;
-    animation-direction:normal ;
-    animation-name: letra1;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
-@keyframes letra1 {
-    from {
-      margin-top: 0%;
-      width: 300%;
-    }
-  
-    to {
-      margin-botom: 100%;
-      width: 100%;
-    }
+.foto2 {
+    display: block;
+    position: sticky;
+    top: 140px;
+    z-index: 999;
+}
