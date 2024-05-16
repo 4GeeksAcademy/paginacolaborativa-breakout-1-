@@ -55,6 +55,9 @@ $ npx http-server --yes -c-1
 
 Vercel, Netlify o GitHub pages permiten publicar tu aplicación web y poder obtener una URL donde cualquier persona pueda verla (por ejemplo: `https://mysuperteam.zeit.sh`).
 
+
+
+
 ## Entrega
 
 Cada estudiante debe presentar el repositorio de su líder de equipo.
